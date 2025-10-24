@@ -6,7 +6,7 @@ import MobileNavigation from "../Navigation/MobileNavigation"
 const Header = () => {
     
     return (
-        <header className="flex items-center justify-between mb-6 p-4 shadow-[0_4px_15px_rgba(255,255,255,0.4)]">
+        <header className="flex justify-evenly items-center md:justify-between mb-6 p-4 shadow-[0_4px_15px_rgba(255,255,255,0.4)]">
             <Logo />    
             <Navigation />            
             <MobileNavigation /> 
