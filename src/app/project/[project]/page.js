@@ -5,7 +5,7 @@ const DetailedProject = async ({params}) => {
     const {project} = await params
     const projectName = unslugify(project)
     const clickedProject = selectedProject(projectName)
-
+    console.log(clickedProject)
     return (
         <div className="text-white grow align-items-center">
             <div className="flex justify-center">

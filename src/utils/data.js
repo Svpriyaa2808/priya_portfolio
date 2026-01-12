@@ -16,6 +16,19 @@ export const NavArray = [
 
 export const projectArray = [
     {
+        
+        title : "Fullstack Forum",
+        video : "/video/fullstack.mp4",
+        image : "/images/fullstack.png",
+        mobileImage : "/images/fullstack_mobile.png",
+        description: [
+            "Developed a full-stack Reddit-style application using React/Next.js and Supabase (PostgreSQL, Auth) with secure authentication and protected routes.",
+            "Implemented relational data models for posts and nested comments with full CRUD operations, search, and image uploads.",
+            "Built a responsive UI with modern CSS, robust error handling, and user-based access control."
+        ],
+        link : "https://schoolapp-cyan.vercel.app/"
+     },
+    {
         title : "Clothing Site",
         video : "/video/clothing.mp4",
         image : "/images/clothing.png",
@@ -28,6 +41,18 @@ export const projectArray = [
         ],
         link : "https://clothing-spa.vercel.app/"
     },
+    {     
+        title : "Steamwreck",
+        video : "/video/steamwreck.mp4",
+        image : "/images/steamwreck.png",
+        mobileImage : "/images/steamwreck_mobile.png",
+        description: [
+            "Built a fully functional game website using Next.js, TypeScript, and Tailwind CSS, featuring an interactive UI, dynamic components, and a fully responsive design.",
+            "Implemented modern frontend architecture with reusable components, state management, and performance-optimized rendering.",
+            "Collaborated in an Agile development environment, working with a Project Manager and participating in Scrum meetings, sprint planning, and iterative feature delivery."
+        ],
+        link : "https://steam-wrecked.vercel.app/"
+     },
      {
         title : "Natures Zoo",
         video : "/video/zoo_react.mp4",
@@ -66,7 +91,7 @@ export const projectArray = [
             "Designed a responsive and engaging UI to enhance player experience."
         ],
         link : "https://wordle-game-beryl.vercel.app/"
-     }
+     },
 ]
 
 export const skillsArray = [
